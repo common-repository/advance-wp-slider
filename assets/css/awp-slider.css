@@ -1,0 +1,191 @@
+:root{
+    --slider-navigator-color:#fff;
+    --slider-heading-color:#fff;
+    --slider-title-color:#fff;
+    --slider-button-text-color:#fff;
+    --slider-button-text-hover-color:#fff;
+    --slider-button-color:#fff;
+    --slider-button-hover-color:#fff;
+
+    --slider-heading-size:40px;
+    --slider-title-size:8px;
+    --slider-button-size:8px;
+
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/**=============Arrow left style=====================**/
+
+#arrow-left {
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 30px;
+}
+
+#arrow-left svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/**=============Arrow left style=====================**/
+#arrow-right {
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    right: 30px;
+}
+
+#arrow-right svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/**=============Slider main style=====================**/
+#jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    height: 380px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#jssor_1 .slider {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.jssorb053 {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.jssorb053 .i {
+    width: 16px;
+    height: 16px;
+}
+
+.jssorb053 .i svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jssorb053 .i .b {
+    fill: var(--slider-navigator-color);
+    fill-opacity: 0.5;
+}
+
+.jssorb053 .i:hover .b {
+    fill-opacity: .7;
+}
+
+.jssorb053 .iav .b {
+    fill-opacity: 1;
+}
+
+.jssorb053 .i.idn {
+    opacity: .3;
+}
+
+.jssora093 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora093 .c {
+    fill: none;
+    stroke: var(--slider-navigator-color);
+    stroke-width: 400;
+    stroke-miterlimit: 10;
+}
+
+.jssora093 .a {
+    fill: none;
+    stroke: var(--slider-navigator-color);
+    stroke-width: 400;
+    stroke-miterlimit: 10;
+}
+
+.jssora093:hover {
+    opacity: .8;
+}
+
+.jssora093.jssora093dn {
+    opacity: .6;
+}
+
+.jssora093.jssora093ds {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.slider-overlay {
+    background-color: #33333338;
+}
+
+/**=============Slider item style=====================**/
+
+.slider-item {
+    position: relative;
+}
+
+.slider-item.slider-content {
+    position: absolute;
+}
+
+.slider-content {
+    text-align: center;
+    padding: 50px 350px;
+    color: #fff;
+}
+
+.slider-content h2 {
+    color: var(--slider-heading-color) !important;
+    font-size: var(--slider-heading-size) !important;
+}
+
+.slider-content p {
+    color: var(--slider-title-color) !important;
+    font-size: var(--slider-title-size) !important;
+}
+
+.slider-content .btn a {
+    background-color: var(--slider-button-color);
+    color: var(--slider-button-text-color);
+    font-size: var(--slider-button-size);
+    padding: 8px 13px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.slider-content .btn a:hover {
+    background-color: var(--slider-button-hover-color);
+    color: var(--slider-button-text-hover-color);
+}
